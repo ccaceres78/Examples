@@ -1,0 +1,9 @@
+﻿@model Piranha.Models.PageModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = Model.Page.Title;
+}
+
+<h1>@Model.Page.Title</h1>
+
+@Model.Regions.Content
